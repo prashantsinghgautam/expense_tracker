@@ -1,0 +1,38 @@
+/* Custom CSS for the expense tracker app */
+
+body {
+    padding: 20px;
+    background: linear-gradient(to right top, #272635, #3f3143, #593d51, #724b5e, #8b5b6b);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .container {
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value (0.5) to control the darkness */
+    border-radius: 8px;
+    padding: 20px;
+    color: #ebebeb; /* Text color for the expense box */
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #ebebeb; /* Heading color */
+  }
+  
+  /* Optional styling for the expense table */
+  .table {
+    margin-top: 20px;
+    color: #ebebeb; /* Text color for the expense table */
+  }
+  
+  /* Adjust the modal width to fit the content */
+  .modal-dialog {
+    max-width: 500px;
+  }
+  
+  /* Optional styling for the edit expense modal */
+  .modal-title {
+    margin-right: 50px;
+  }
+  
